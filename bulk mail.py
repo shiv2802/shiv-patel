@@ -4,7 +4,7 @@ ob=s.SMTP("smtp.gmail.com", 587)
 
 ob.starttls()
 
-ob.login("pshiv8822@gmail.com", "aerospace2807")
+ob.login( your gmail account, your password)
 
 
 subject="sending mail using python"
