@@ -1,9 +1,5 @@
 import random
 
-
-
-
-
 word_list = [
     'wares',
     'soup',
@@ -473,6 +469,9 @@ def play(word):
             if guess in guessed_letters:
                 print("You already guessed the letter", guess)
             elif guess not in word:
+
+
+                
                 print(guess, "is not in the word.")
                 tries -= 1
                 guessed_letters.append(guess)
@@ -589,24 +588,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
